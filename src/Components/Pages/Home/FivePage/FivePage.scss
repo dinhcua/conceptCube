@@ -1,0 +1,32 @@
+.five-page {
+    background-image: url("../../../../Assets/05-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.main-text-five {
+    color: #deff72;
+    font-size: 110px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-left: 50%;
+    margin-top: -80px;
+    width: 62%;
+}
+.text-box-heading {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+.text-box-second {
+    color: #ddd;
+    font-size: 26px;
+}
+.text-box {
+    display: flex;
+    flex-direction: column;
+    margin: 150px;
+}

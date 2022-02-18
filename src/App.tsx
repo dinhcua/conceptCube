@@ -1,24 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import FirstPage from "./Components/Pages/Home/FirstPage/FirstPage";
+import FivePage from "./Components/Pages/Home/FivePage/FivePage";
+import FourthPage from "./Components/Pages/Home/FourthPage/FourthPage";
+import SecondPage from "./Components/Pages/Home/SecondPage/SecondPage";
+import ThirdPage from "./Components/Pages/Home/ThirdPage/ThirdPage";
+import Sidemenu from "./Components/Common/SideMenu/SideMenu";
+import Header from "./Components/Common/Header/Header";
+import Home from "./Components/Pages/Home/Home";
+import Contact from "./Components/Pages/Contact/Contact";
+import Teams from "./Components/Pages/Teams/Teams";
+import Works from "./Components/Pages/Works/Works";
+import RoutesPage from "./Components/Routers/RoutersPage";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <FirstPage />
+      <SecondPage />
+      <ThirdPage />
+      <FourthPage />
+      <FivePage /> */}
+
+      {/* <Header /> */}
+      {/* <Home /> */}
+      {/* <Contact /> */}
+      {/* <Teams /> */}
+      {/* <Works /> */}
+      <RoutesPage />
     </div>
   );
 }

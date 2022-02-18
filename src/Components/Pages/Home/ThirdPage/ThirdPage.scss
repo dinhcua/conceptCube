@@ -1,0 +1,54 @@
+.box-third {
+    width: 366px;
+    height: 680px;
+    overflow: hidden;
+    background-color: #19065f;
+    margin: 15px;
+    color: #604da6;
+}
+.third-page {
+    display: flex;
+    padding: 50px 0px;
+    width: 100vw;
+    height: 1080px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b0080;
+}
+.box-third.active {
+    background-color: #673dc7;
+    width: calc(366px + 30px) ;
+    height: calc(680px + 30px);
+    transform: translateY(-15px);
+}
+.active.box-heading {
+    color: #ccee5d !important;
+}
+.box-heading {
+    font-size: 40.5px;
+    font-weight: 600;
+    margin: 20px;
+    line-height: 1;
+    height: 100px;
+    
+
+}
+.box-paragraph {
+    font-size: 14.5px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin: 20px;
+    color: #604da6;
+}
+.active.box-paragraph {
+    color: #ccee5d;
+    line-height: 1.6;
+}
+.active.box-heading-two {
+    color: #ccee5d;
+    line-height: 1.3;
+    font-size: 14.5px;
+    font-weight: 600;
+    margin: 20px ;
+}
